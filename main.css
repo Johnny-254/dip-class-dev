@@ -1,0 +1,27 @@
+.container{
+    border: 5px solid #f00;
+}
+.container 
+.demo h1{
+    color: #f00;
+}
+.demo .color{
+    color: #00f;
+}
+.container h1{
+    border: 1px dashed #00f;
+}
+.container h1 .color{
+    color: #ff0;
+}
+.flex-container{
+    display: flex;
+    margin-left: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-container .product{
+    border: 1px solid black;
+}
